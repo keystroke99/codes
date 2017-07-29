@@ -1,7 +1,7 @@
-# codes
+# Codes
 Code Blocks for Laravel
 
-Excel File Load to Database:
+# Excel File Load to Database:
 
 https://github.com/Maatwebsite/Laravel-Excel
 
