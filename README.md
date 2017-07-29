@@ -3,7 +3,7 @@ Code Blocks for Laravel
 
 # Excel File Load to Database:
 
-https://github.com/Maatwebsite/Laravel-Excel
+(https://github.com/Maatwebsite/Laravel-Excel)
 
 ```
  public function excelupload(Request $request)
@@ -32,4 +32,4 @@ https://github.com/Maatwebsite/Laravel-Excel
     }
 ```
 
-    
+   
