@@ -5,6 +5,7 @@ Code Blocks for Laravel
 
 https://github.com/Maatwebsite/Laravel-Excel
 
+```
  public function excelupload(Request $request)
     {
 
@@ -29,5 +30,6 @@ https://github.com/Maatwebsite/Laravel-Excel
         }
         return back()->with('error','Please Check your file, Something is wrong there.');
     }
-    
+```
+
     
