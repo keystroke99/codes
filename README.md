@@ -86,4 +86,12 @@ $('#enrolcol3').on('click', function() {
                     });
                 
                 }); 
+  ```
+                
+  # Remove Index.php from URL's in Laravel
+  add this code in .htaccess file
+```
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^(.*)$ /index.php?/$1 [L]
 ```
