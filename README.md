@@ -95,3 +95,13 @@ $('#enrolcol3').on('click', function() {
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteRule ^(.*)$ /index.php?/$1 [L]
 ```
+ # CodeIgniter .htaccess file to override index.php from URL's
+ 
+ ```
+  RewriteEngine On
+  RewriteCond $1 !^(index\.php|assets|images|js|css|uploads|favicon.png)
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule ^(.*)$ index.php/$1 [L]
+  
+ ```
