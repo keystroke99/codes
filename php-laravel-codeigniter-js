@@ -105,3 +105,37 @@ $('#enrolcol3').on('click', function() {
   RewriteRule ^(.*)$ index.php/$1 [L]
   
  ```
+ 
+ # Ajax Call in CodeIgniter
+ POST REQUEST
+ ```
+ $('#like').click(function () {
+  	    $.ajax({
+  	      url: "<?php echo base_url();?>index.php/welcome/savelike",
+  	      type: "POST",
+  	      data: {
+  	      		jbskr_id : 1,
+  	      		rctr_id	 : 2},
+  	      dataType: "json",
+  	      success: function(data) {
+  	        
+  	      }
+  	    });
+  	  });
+ ```
+GET REQUEST
+```
+ function countlikes(){
+    		var id=1;
+    		$.ajax({
+    		  url: "<?php echo base_url();?>index.php/welcome/getlikes?id="+id,
+    		  type: "GET",
+    		  dataType: "json",
+    		  success: function(data) {
+    		    console.log(data.id);
+    		    $("#likescount").append(data.rctr_id + " &nbsp; Liked your profile");
+    		  }
+    		});
+    	}
+    	
+```
