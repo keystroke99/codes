@@ -139,34 +139,4 @@ GET REQUEST
     	}
     	
 ```
-# CodeIgniter - Checking to see if a value already exists in the database
 
-```
-There is not a built-in form validation check for whether or not a value is in the database, but you can create your own validation checks.
-
-In your controller, create a method similar to this:
-
-function rolekey_exists($key)
-{
-    $this->roles_model->role_exists($key);
-}
-And in your model that handles roles, add something like this:
-
-function role_exists($key)
-{
-    $this->db->where('rolekey',$key);
-    $query = $this->db->get('roles');
-    if ($query->num_rows() > 0){
-        return true;
-    }
-    else{
-        return false;
-    }
-}
-And then you can write a form validation check like this:
-
-$this->form_validation->set_rules('username', 'Username', 'callback_rolekey_exists');
-See this page for more information:
-
-http://ellislab.com/codeigniter/user_guide/libraries/form_validation.html#callbacks
-```
