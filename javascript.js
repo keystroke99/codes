@@ -10,3 +10,18 @@
               }
         }
 ```
+
+# Form Submission calls Javascript function
+
+```
+<form onsubmit="return redirectMe();">
+  <input placeholder="Search" type="text">
+</form>
+
+... more code here ...
+
+function redirectMe() {
+  window.location.replace("http://stackoverflow.com");
+  return false;
+}
+```
