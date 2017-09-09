@@ -217,5 +217,3 @@ $this->load->library('email');
   
   ```
 
-```
-
