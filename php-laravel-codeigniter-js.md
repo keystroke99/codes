@@ -139,7 +139,7 @@ GET REQUEST
     	}
     	
 ```
-<<<<<<< patch-3
+
 # CodeIgniter - Checking to see if a value already exists in the database
 
 ```
@@ -164,6 +164,9 @@ function role_exists($key)
         return false;
     }
 }
+
+```
+
 And then you can write a form validation check like this:
 
 $this->form_validation->set_rules('username', 'Username', 'callback_rolekey_exists');
@@ -178,7 +181,7 @@ RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^(.*)$ /index.php?/$1 [L]
->>>>>>> master
+
 ```
 
 # Use eMail class in Controller
