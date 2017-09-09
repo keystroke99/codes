@@ -181,3 +181,41 @@ RewriteRule ^(.*)$ /index.php?/$1 [L]
 >>>>>>> master
 ```
 
+# Use eMail class in Controller
+
+```
+$this->load->library('email');
+		
+		//SMTP & mail configuration
+		$config = array(
+		    'protocol'  => 'smtp',
+		    'smtp_host' => 'ssl://smtp.gmail.com',
+		    'smtp_port' => 465,
+		    'smtp_user' => 'keystroke99@gmail.com',
+		    'smtp_pass' => 'tjvhbayegpcpczia',
+		    'mailtype'  => 'html',
+		    'charset'   => 'utf-8'
+		);
+		$this->email->initialize($config);
+		$this->email->set_mailtype("html");
+		$this->email->set_newline("\r\n");
+
+		//Email content
+		$htmlContent = '<h1>Test Mail from my APP :)</h1>';
+		$htmlContent .= '<p>Reply me if this is working fine :) Thank you.</p>';
+		$htmlContent .= '<p><em>Rohini Kumar D</em></p>';
+
+		$this->email->to(array('keystroke99@gmail.com', 'ramsai@proximquestit.com', 'vinod@proximquestit.com', 'vikram@proximquestit.com'));
+		$this->email->cc('ramsai@proximquestit.com');
+		$this->email->bcc('rohinikumar.d@proximquestit.com');
+		$this->email->from('keystroke99@gmail.com','PHPDeveloper');
+		$this->email->subject('Testing Email Serivce from CodeIginter');
+		$this->email->message($htmlContent);
+
+		//Send email
+		$this->email->send();
+  
+  ```
+
+```
+
