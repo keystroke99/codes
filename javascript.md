@@ -43,3 +43,30 @@ function redirectMe() {
                 }
         };
 ```
+
+# jQuery get value of select onChange
+url: https://stackoverflow.com/questions/11179406/jquery-get-value-of-select-onchange
+
+```
+This is helped for me.
+
+For select:
+
+$('select_tags').on('change', function() {
+    alert( $(this).find(":selected").val() );
+});
+
+// text value
+$('select').on('change', function() {
+                    alert( $(this).find(":selected").text() );
+                    
+                });
+For radio/checkbox:
+
+$('radio_tags').on('change', function() {
+    alert( $(this).find(":checked").val() );
+});
+
+
+
+```
