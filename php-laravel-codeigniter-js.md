@@ -219,4 +219,30 @@ $this->load->library('email');
 		$this->email->send();
   
   ```
+  
+  # Insert Multiple Values (Array of Inputs ) into database Controller Code
+  
+  ```
+  // Add Multiple Contacts
+
+    public function addmultiplecontacts(Request $request) {
+        $userInput = $request->all();
+
+        $mobileNo = $request->mobile; // mobile numbers array which is taken as input using name="mobile[]"
+        $emails  = $request->email; // emails array which is taken as input using name="email[]"
+        $firstNames  = $request->firstname;
+        $lastNames  = $request->lastname;
+
+          for($i=0; $i < (count($mobileNo)); $i++) {
+            $contact = new Contact;
+          $contact->contact_name  = $mobileNo[$i];
+          $contact->contact_email  = $emails[$i];
+          $contact->contact_mobile  = $firstNames[$i].$lastNames[$i];
+
+          $contact->user_id  = Auth::user()->id;
+
+          $contact->save();
+          }
+        return back();
+  ```
 
