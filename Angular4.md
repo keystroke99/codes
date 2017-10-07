@@ -82,3 +82,6 @@ Form Code
   </div>
 </div>
 ```
+
+# Sorting / Filtering in Angular 4
+https://github.com/VadimDez/ngx-order-pipe
