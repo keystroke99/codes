@@ -245,4 +245,35 @@ $this->load->library('email');
           }
         return back();
   ```
+# Laravel Databales Jquery Custom Columns
 
+```
+$('#contactsTable').DataTable({
+                                    processing: true,
+                                    responsive: true,
+                                    
+                                      "lengthChange": false,
+                                    "ajax":{"url":"rendercontacts","dataSrc":""},
+                                    // "ajax": "/rendercontacts",
+                                    "columns": [
+                                      { 
+                                          "mData": "Name",
+                                                          "mRender": function (data, type, row) {
+                                                              return "<input type='checkbox' name='sno' value='{{ $contact->id }}'>";
+                                                          }
+                                     },
+                                      { data: 'contact_name', name: 'contact_name' },
+                                      { data: 'contact_email', name: 'contact_email' },
+                                      { data: 'contact_mobile', name: 'contact_mobile' },
+                                      { data: 'groupname', name: 'groupname' },
+                                      { data: 'created_at', name: 'created_at' },
+                                      { data: 'status', name: 'status' },
+                                      { 
+                                          "mData": "Name",
+                                                          "mRender": function (data, type, row) {
+                                                              return "<select class='editcontact'><option>Select</option><option value='{{$contact->id }}'>Send SMS</option><option value='{{ $contact->id }}'>Edit</option><option value='{{ $contact->id }}'>Delete</option></select>";
+                                                          }
+                                       }
+                                    ]
+                                });    // Contacts Page Table
+```
