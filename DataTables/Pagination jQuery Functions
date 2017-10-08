@@ -1,0 +1,5 @@
+```
+$("#tableId").on("click", ".activeAccount", function(){
+   // your code goes here
+});
+```
