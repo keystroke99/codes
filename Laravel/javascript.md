@@ -70,3 +70,20 @@ $('radio_tags').on('change', function() {
 
 
 ```
+
+# Enter only number in Text Field using Javascript
+```
+<input type="text" value="" name="mobileNo" onkeypress="return isNumber(event)" />
+```
+```
+<script>
+    function isNumber(evt) {
+    evt = (evt) ? evt : window.event;
+    var charCode = (evt.which) ? evt.which : evt.keyCode;
+    if (charCode > 31 && (charCode < 48 || charCode > 57)) {
+        return false;
+    }
+    return true;
+}
+</script>
+```
