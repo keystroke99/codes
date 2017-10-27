@@ -32,30 +32,7 @@ https://github.com/Maatwebsite/Laravel-Excel
     }
 ```
 
-# Ajax Call in Laravel 5.4
-```
-$('#enrolcol3').on('click', function() {
-                    
-                    $.ajax({
-                        // headers: {
-                        //               'X-CSRF-Token': $('input[name="_token"]').val()
-                        //           },
-                        url: "/submituserdetails",
-                        type: "POST",
-                        data: {firstname: $("#firstname").val(), lastname: $("#lastname").val(), email: $("#email").val(), mobileNo: $("#phone").val(), country: $("#country").val(), city: $("#city").val(), address: $("#address").val(), courselanguage: $("#courselanguage").val(), genpwd: $("#pwd").val(), flag: $("#enrolflag").val(), _token:'{{ csrf_token() }}'  },
-                        success: function (response) {
-                          // you will get response from your php page (what you echo or print) 
-                          // rohini = "you are attending the event";
-                          // u = document.getElementById('msg');
-                          // u.innerHTML = rohini;
-                        },
-                        error: function(jqXHR, textStatus, errorThrown) {
-                           console.log(textStatus, errorThrown);
-                        }
-                    });
-                
-                }); 
-  ```
+
                 
   # Remove Index.php from URL's in Laravel
   add this code in .htaccess file
