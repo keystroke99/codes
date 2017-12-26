@@ -26,3 +26,10 @@ md \data\db
 ```
 db.users.update( {username:"keystroke99"},{$set: {email:"keystroke98@gmail.com"}})
 ```
+
+# use Object Id
+
+```
+var ObjectId = require('mongodb').ObjectID;
+
+```
