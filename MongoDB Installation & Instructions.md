@@ -13,8 +13,8 @@ md \data\db
 -----------------------------------------------------
 1. Start MongoDB
 
-"C:\Program Files\MongoDB\Server\3.4\bin\mongod.exe"
+"C:\Program Files\MongoDB\Server\3.6\bin\mongod.exe"
 
 2. Connect to MongoDB
 
-"C:\Program Files\MongoDB\Server\3.4\bin\mongo.exe"
+"C:\Program Files\MongoDB\Server\3.6\bin\mongo.exe"
