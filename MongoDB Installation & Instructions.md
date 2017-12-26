@@ -33,3 +33,27 @@ db.users.update( {username:"keystroke99"},{$set: {email:"keystroke98@gmail.com"}
 var ObjectId = require('mongodb').ObjectID;
 
 ```
+# Update by Id
+
+```
+router.put('/editSchedule/:id', function(req, res) {
+
+	
+	console.log(req.body);
+
+    var startTime = req.body.startTime;
+    var endTime = req.body.endTime;
+    var typeOfEvent = req.body.typeOfEvent;
+
+    var reqbody = req.body;
+
+    Calander.findByIdAndUpdate(req.params.id, reqbody, function (err, result) {
+    if (err) return res.send(err);
+    res.send('Schedule Updated Successfully');
+  });
+
+
+
+    
+});
+```
