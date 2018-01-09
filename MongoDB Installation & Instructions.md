@@ -66,3 +66,18 @@ delete this file and then launch sudo rm /var/lib/mongodb/mongod.lock
 mongo service: delete the file rm -rf /tmp/mongodb-27017.sock
 
 ```
+
+# Connect to Mongo Compass using SSH
+
+```
+1. Bind Ip Address in Location : "/etc/mongod.conf"
+-- 0.0.0.0
+```
+```
+2. In MongoDB Compass use SSH Tunnel \n
+HostName : localhost \n
+Port : 27017 \n
+select Use Identity File -> SSH HostNAme (IP Address) -> Tunnel Port (22) -> SSH Username (ubuntu)
+ --> SSH Identity File (select PPK file)
+ 
+ ```
