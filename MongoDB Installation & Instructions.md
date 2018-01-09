@@ -57,3 +57,10 @@ router.put('/editSchedule/:id', function(req, res) {
     
 });
 ```
+# Mongo error : restart the mongo db #
+Failed to connect to 127.0.0.1:27017, in(checking socket for error after poll), reason: errno:111 Connection refused
+```
+delete this file and then launch mosudo rm /var/lib/mongodb/mongod.lock
+mongo service: delete the file rm -rf /tmp/mongodb-27017.sock
+
+```
