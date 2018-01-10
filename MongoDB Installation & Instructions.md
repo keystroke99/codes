@@ -81,3 +81,13 @@ select Use Identity File -> SSH HostNAme (IP Address) -> Tunnel Port (22) -> SSH
  --> SSH Identity File (select PPK file)
  
  ```
+ 
+ # Checking with multiple fields
+ 
+ ```
+ module.exports.getUserByUsername = function(username, callback) { \n
+
+  var query = { $or: [ { email: username }, { mobileNumber: username } ] }; \n
+    User.findOne(query, callback); \n
+}
+ ```
