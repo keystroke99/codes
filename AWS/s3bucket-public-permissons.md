@@ -13,4 +13,4 @@ Now click on Add Statement \n
 Step 3: Generate Policy \n
 Click on Generate Policy and Paste the JSON object in Byucket > Permissions > Bucket Policy > Bucket policy editor > click on SAVE
 
-``
+```
