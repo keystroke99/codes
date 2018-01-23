@@ -91,3 +91,9 @@ select Use Identity File -> SSH HostNAme (IP Address) -> Tunnel Port (22) -> SSH
     User.findOne(query, callback); \n
 }
  ```
+ 
+ # Get data by specified field
+ 
+ ```
+ db.getCollection("users").find({'preferences':/Sports/}).pretty()
+ ```
