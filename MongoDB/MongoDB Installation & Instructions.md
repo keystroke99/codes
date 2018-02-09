@@ -97,3 +97,8 @@ select Use Identity File -> SSH HostNAme (IP Address) -> Tunnel Port (22) -> SSH
  ```
  db.getCollection("users").find({'preferences':/Sports/}).pretty()
  ```
+# Update Multiple Records 
+
+```
+db.subcategories.update({}, {$unset: {name:1}} , {multi: true});
+```
