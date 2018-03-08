@@ -101,4 +101,6 @@ select Use Identity File -> SSH HostNAme (IP Address) -> Tunnel Port (22) -> SSH
 
 ```
 db.subcategories.update({}, {$unset: {name:1}} , {multi: true});
+
+db.feeds.update({memberId : ObjectId('5a8d1278d44fbe0b24365e6c')}, { '$set': {"profilePicPath" : "avtars/rohini-kumar-d.jpg"} } , {multi: true});
 ```
