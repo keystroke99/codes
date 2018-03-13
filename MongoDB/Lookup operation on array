@@ -1,0 +1,27 @@
+
+```
+db.alumni.aggregate([
+    {$match: {_id: 'john'}},
+    {$unwind:"$items"},
+    {$unwind:"$items.items"},
+    {$lookup: {
+        from: 'schools', 
+        localField: 'items.items.school', 
+        foreignField: '_id', 
+        as: 'schoolInfo'}},
+    {$unwind:"$schoolInfo"},
+    {$project:{
+        "_id":1,
+        "items":[{
+            "name":"$items.name",
+            "items":[{
+            "school":"$schoolInfo._id"    ,
+            "grad":"$items.items.grad"    ,
+            "schoolInfo":"$schoolInfo"
+            }]
+        }]            
+    }}
+]).pretty()
+
+```
+source: https://stackoverflow.com/questions/36022456/mongodb-lookup-on-nested-document
