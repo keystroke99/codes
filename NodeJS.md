@@ -5,6 +5,12 @@
 
 ```
 
+# Angular
+```
+ ng serve --host 192.168.2.142
+
+```
+
 # Kill Process by Port Number
 
 ```
