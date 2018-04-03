@@ -8,3 +8,12 @@ for(var i = 0; i < data.length; i++) {
     }
 }
 ```
+
+
+# Filter Objects for matching field values
+
+```
+myArr = myArr.filter(function( obj ) {
+        return obj.isCeleb !== false;
+      });
+```
