@@ -1,0 +1,60 @@
+[06-Oct-2017 04:14:19 UTC] PHP Warning:  file_get_contents(attachment.zip): failed to open stream: No such file or directory in /home/webdesignershubc/public_html/bhagwadhwaj.com/mail.php on line 16
+[06-Oct-2017 04:15:26 UTC] PHP Warning:  file_get_contents(attachment.zip): failed to open stream: No such file or directory in /home/webdesignershubc/public_html/bhagwadhwaj.com/mail.php on line 16
+[06-Oct-2017 04:16:51 UTC] PHP Warning:  file_get_contents(your path goes here/myfile): failed to open stream: No such file or directory in /home/webdesignershubc/public_html/bhagwadhwaj.com/mail.php on line 63
+[06-Oct-2017 04:18:33 UTC] PHP Warning:  file_get_contents(your path goes here/myfile): failed to open stream: No such file or directory in /home/webdesignershubc/public_html/bhagwadhwaj.com/mail.php on line 10
+[06-Oct-2017 04:18:54 UTC] PHP Warning:  file_get_contents(your path goes here/myfile): failed to open stream: No such file or directory in /home/webdesignershubc/public_html/bhagwadhwaj.com/mail.php on line 10
+[06-Oct-2017 04:19:13 UTC] PHP Warning:  file_get_contents(your path goes here/myfile): failed to open stream: No such file or directory in /home/webdesignershubc/public_html/bhagwadhwaj.com/mail.php on line 10
+[06-Oct-2017 04:19:27 UTC] PHP Warning:  file_get_contents(your path goes here/myfile): failed to open stream: No such file or directory in /home/webdesignershubc/public_html/bhagwadhwaj.com/mail.php on line 10
+[06-Oct-2017 04:20:07 UTC] PHP Warning:  file_get_contents(your path goes here/myfile): failed to open stream: No such file or directory in /home/webdesignershubc/public_html/bhagwadhwaj.com/mail.php on line 10
+[06-Oct-2017 04:23:30 UTC] PHP Warning:  file_get_contents(your path goes here/myfile): failed to open stream: No such file or directory in /home/webdesignershubc/public_html/bhagwadhwaj.com/mail.php on line 10
+[06-Oct-2017 04:27:15 UTC] PHP Warning:  file_get_contents(your path goes here/myfile): failed to open stream: No such file or directory in /home/webdesignershubc/public_html/bhagwadhwaj.com/mail.php on line 18
+[06-Oct-2017 04:33:28 UTC] PHP Warning:  file_get_contents(your path goes here/myfile): failed to open stream: No such file or directory in /home/webdesignershubc/public_html/bhagwadhwaj.com/mail.php on line 20
+[06-Oct-2017 04:35:08 UTC] PHP Warning:  file_get_contents(your path goes here/myfile): failed to open stream: No such file or directory in /home/webdesignershubc/public_html/bhagwadhwaj.com/mail.php on line 20
+[06-Oct-2017 04:38:15 UTC] PHP Warning:  file_get_contents(your path goes here/myfile): failed to open stream: No such file or directory in /home/webdesignershubc/public_html/bhagwadhwaj.com/mail.php on line 20
+[06-Oct-2017 04:38:50 UTC] PHP Warning:  file_get_contents(your path goes here/myfile): failed to open stream: No such file or directory in /home/webdesignershubc/public_html/bhagwadhwaj.com/mail.php on line 20
+[06-Oct-2017 05:22:03 UTC] PHP Warning:  file_get_contents(your path goes here/myfile): failed to open stream: No such file or directory in /home/webdesignershubc/public_html/bhagwadhwaj.com/mail.php on line 20
+[06-Oct-2017 07:44:30 UTC] PHP Warning:  fopen(mypdffile.pdf): failed to open stream: No such file or directory in /home/webdesignershubc/public_html/bhagwadhwaj.com/mail.php on line 17
+[06-Oct-2017 07:44:30 UTC] PHP Warning:  filesize(): stat failed for mypdffile.pdf in /home/webdesignershubc/public_html/bhagwadhwaj.com/mail.php on line 18
+[06-Oct-2017 07:44:30 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/webdesignershubc/public_html/bhagwadhwaj.com/mail.php on line 18
+[06-Oct-2017 07:44:30 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/webdesignershubc/public_html/bhagwadhwaj.com/mail.php on line 19
+[06-Oct-2017 07:46:57 UTC] PHP Warning:  fopen(HELP-US-OUT.txt): failed to open stream: No such file or directory in /home/webdesignershubc/public_html/bhagwadhwaj.com/mail.php on line 17
+[06-Oct-2017 07:46:57 UTC] PHP Warning:  filesize(): stat failed for HELP-US-OUT.txt in /home/webdesignershubc/public_html/bhagwadhwaj.com/mail.php on line 18
+[06-Oct-2017 07:46:57 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/webdesignershubc/public_html/bhagwadhwaj.com/mail.php on line 18
+[06-Oct-2017 07:46:57 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/webdesignershubc/public_html/bhagwadhwaj.com/mail.php on line 19
+[06-Oct-2017 07:47:58 UTC] PHP Warning:  fopen(HELP-US-OUT.txt): failed to open stream: No such file or directory in /home/webdesignershubc/public_html/bhagwadhwaj.com/mail.php on line 17
+[06-Oct-2017 07:47:58 UTC] PHP Warning:  filesize(): stat failed for HELP-US-OUT.txt in /home/webdesignershubc/public_html/bhagwadhwaj.com/mail.php on line 18
+[06-Oct-2017 07:47:58 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/webdesignershubc/public_html/bhagwadhwaj.com/mail.php on line 18
+[06-Oct-2017 07:47:58 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/webdesignershubc/public_html/bhagwadhwaj.com/mail.php on line 19
+[06-Oct-2017 13:08:23 UTC] PHP Warning:  fopen(CONTENT.docx): failed to open stream: No such file or directory in /home/webdesignershubc/public_html/bhagwadhwaj.com/mail.php on line 17
+[06-Oct-2017 13:08:23 UTC] PHP Warning:  filesize(): stat failed for CONTENT.docx in /home/webdesignershubc/public_html/bhagwadhwaj.com/mail.php on line 18
+[06-Oct-2017 13:08:23 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/webdesignershubc/public_html/bhagwadhwaj.com/mail.php on line 18
+[06-Oct-2017 13:08:23 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/webdesignershubc/public_html/bhagwadhwaj.com/mail.php on line 19
+[06-Oct-2017 13:12:37 UTC] PHP Warning:  fopen(CONTENT.docx): failed to open stream: No such file or directory in /home/webdesignershubc/public_html/bhagwadhwaj.com/mail.php on line 17
+[06-Oct-2017 13:12:37 UTC] PHP Warning:  filesize(): stat failed for CONTENT.docx in /home/webdesignershubc/public_html/bhagwadhwaj.com/mail.php on line 18
+[06-Oct-2017 13:12:37 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/webdesignershubc/public_html/bhagwadhwaj.com/mail.php on line 18
+[06-Oct-2017 13:12:37 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/webdesignershubc/public_html/bhagwadhwaj.com/mail.php on line 19
+[06-Oct-2017 13:14:44 UTC] PHP Warning:  fopen(CONTENT.docx): failed to open stream: No such file or directory in /home/webdesignershubc/public_html/bhagwadhwaj.com/mail.php on line 17
+[06-Oct-2017 13:14:44 UTC] PHP Warning:  filesize(): stat failed for CONTENT.docx in /home/webdesignershubc/public_html/bhagwadhwaj.com/mail.php on line 18
+[06-Oct-2017 13:14:44 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/webdesignershubc/public_html/bhagwadhwaj.com/mail.php on line 18
+[06-Oct-2017 13:14:44 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/webdesignershubc/public_html/bhagwadhwaj.com/mail.php on line 19
+[06-Oct-2017 13:24:08 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/webdesignershubc/public_html/bhagwadhwaj.com/mail.php on line 17
+[06-Oct-2017 13:24:08 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/webdesignershubc/public_html/bhagwadhwaj.com/mail.php on line 18
+[06-Oct-2017 13:24:08 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/webdesignershubc/public_html/bhagwadhwaj.com/mail.php on line 19
+[06-Oct-2017 13:25:19 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/webdesignershubc/public_html/bhagwadhwaj.com/mail.php on line 24
+[06-Oct-2017 13:25:19 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/webdesignershubc/public_html/bhagwadhwaj.com/mail.php on line 25
+[06-Oct-2017 13:25:19 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/webdesignershubc/public_html/bhagwadhwaj.com/mail.php on line 26
+[06-Oct-2017 13:26:14 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/webdesignershubc/public_html/bhagwadhwaj.com/mail.php on line 24
+[06-Oct-2017 13:26:14 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/webdesignershubc/public_html/bhagwadhwaj.com/mail.php on line 25
+[06-Oct-2017 13:26:14 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/webdesignershubc/public_html/bhagwadhwaj.com/mail.php on line 26
+[08-Oct-2017 23:59:18 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/webdesignershubc/public_html/bhagwadhwaj.com/mail.php on line 17
+[08-Oct-2017 23:59:18 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/webdesignershubc/public_html/bhagwadhwaj.com/mail.php on line 18
+[08-Oct-2017 23:59:18 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/webdesignershubc/public_html/bhagwadhwaj.com/mail.php on line 19
+[09-Oct-2017 00:03:17 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/webdesignershubc/public_html/bhagwadhwaj.com/mail.php on line 17
+[09-Oct-2017 00:03:17 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/webdesignershubc/public_html/bhagwadhwaj.com/mail.php on line 18
+[09-Oct-2017 00:03:17 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/webdesignershubc/public_html/bhagwadhwaj.com/mail.php on line 19
+[08-Nov-2017 16:26:43 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/webdesignershubc/public_html/bhagwadhwaj.com/mail.php on line 17
+[08-Nov-2017 16:26:43 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/webdesignershubc/public_html/bhagwadhwaj.com/mail.php on line 18
+[08-Nov-2017 16:26:43 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/webdesignershubc/public_html/bhagwadhwaj.com/mail.php on line 19
+[08-Nov-2017 16:26:50 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/webdesignershubc/public_html/bhagwadhwaj.com/mail.php on line 17
+[08-Nov-2017 16:26:50 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/webdesignershubc/public_html/bhagwadhwaj.com/mail.php on line 18
+[08-Nov-2017 16:26:50 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/webdesignershubc/public_html/bhagwadhwaj.com/mail.php on line 19
