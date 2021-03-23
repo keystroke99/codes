@@ -1,15 +1,15 @@
 # Deleting the .git folder may cause problems in your git repository. If you want to delete all your commit history but keep the code in its current state, it is very safe to do it as in the following:
 
 Checkout
-``
+```
 git checkout --orphan latest_branch
-``
+```
 Add all the files
 ```
 git add -A
 ```
 Commit the changes
-``
+```
 git commit -am "commit message"
 ```
 Delete the branch
