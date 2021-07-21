@@ -21,4 +21,4 @@
     ]
 }
 ```
-4. Now start debugging by navigating to ** Run >> Start Debugging or press F5 button **
+4. Now start debugging by navigating to **Run >> Start Debugging or press F5 button**
